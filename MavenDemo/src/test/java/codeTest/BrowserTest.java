@@ -14,7 +14,7 @@ public class BrowserTest {
 	WebDriver driver= new FirefoxDriver();
 	driver.get("http://phptravels.org/clientarea.php");
 	Thread.sleep(5000);
-		System.out.println("end");
+		System.out.println("Finished");
 	}
 
 
