@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test4(failed)">
+    <classes>
+      <class name="TestNG.DataDriven">
+        <methods>
+          <include name="f" invocation-numbers="1"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- TestNG.DataDriven -->
+      <class name="TestNG.TC03">
+        <methods>
+          <include name="postcondition"/>
+          <include name="Precondtion"/>
+        </methods>
+      </class> <!-- TestNG.TC03 -->
+      <class name="TestNG.TC_01_Demo">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- TestNG.TC_01_Demo -->
+      <class name="TestNG.TC02_Login_Mutual_Fund">
+        <methods>
+          <include name="postcondtion"/>
+          <include name="precondition"/>
+        </methods>
+      </class> <!-- TestNG.TC02_Login_Mutual_Fund -->
+    </classes>
+  </test> <!-- Test4(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.whirlpool.V10KWasher.Whirlpool_V10K_Washer_Run">
+        <methods>
+          <include name="Delete_Favorite_Cycle"/>
+          <include name="Add_Applince"/>
+          <include name="Verify_Remote_Start_enabled"/>
+          <include name="Receive_Notification"/>
+          <include name="Send_Cycle"/>
+          <include name="Log_out_Account"/>
+          <include name="Modify_Favorites"/>
+          <include name="Launch_Whirlpool_App"/>
+          <include name="Verify_Appliance_DashBoard"/>
+          <include name="Delete_Appliance"/>
+          <include name="LoginTOWhirlpool"/>
+          <include name="Create_Favorite_Cycle"/>
+        </methods>
+      </class> <!-- com.whirlpool.V10KWasher.Whirlpool_V10K_Washer_Run -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

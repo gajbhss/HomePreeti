@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="11" failed="0" total="11" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="24624" started-at="2018-10-13T14:27:41Z" finished-at="2018-10-13T14:28:05Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="24624" started-at="2018-10-13T14:27:41Z" finished-at="2018-10-13T14:28:05Z">
+      <class name="com.whirlpool.V10KWasher.Whirlpool_V10K_Washer_Run">
+        <test-method status="FAIL" signature="Launch_Whirlpool_App()[pri:0, instance:com.whirlpool.V10KWasher.Whirlpool_V10K_Washer_Run@59f99ea]" name="Launch_Whirlpool_App" is-config="true" duration-ms="0" started-at="2018-10-13T19:57:41Z" finished-at="2018-10-13T19:57:41Z">
+          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 16:57:40'
+System info: host: 'intel', ip: '127.0.0.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_171'
+Driver info: driver.version: AndroidDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 16:57:40'
+System info: host: 'intel', ip: '127.0.0.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_171'
+Driver info: driver.version: AndroidDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:158)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:109)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:39)
+	at com.whirlpool.V10KWasher.Whirlpool_V10K_Washer_Run.Launch_Whirlpool_App(Whirlpool_V10K_Washer_Run.java:49)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:139)
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:155)
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:284)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:261)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:165)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:167)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:272)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:124)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:271)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+	... 29 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch_Whirlpool_App -->
+        <test-method status="SKIP" signature="LoginTOWhirlpool()[pri:1, instance:com.whirlpool.V10KWasher.Whirlpool_V10K_Washer_Run@59f99ea]" name="LoginTOWhirlpool" duration-ms="0" started-at="2018-10-13T19:58:05Z" finished-at="2018-10-13T19:58:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTOWhirlpool -->
+        <test-method status="SKIP" signature="Add_Applince()[pri:2, instance:com.whirlpool.V10KWasher.Whirlpool_V10K_Washer_Run@59f99ea]" name="Add_Applince" duration-ms="15" started-at="2018-10-13T19:58:05Z" depends-on-methods="com.whirlpool.V10KWasher.Whirlpool_V10K_Washer_Run.LoginTOWhirlpool" finished-at="2018-10-13T19:58:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Applince -->
+        <test-method status="SKIP" signature="Verify_Remote_Start_enabled()[pri:3, instance:com.whirlpool.V10KWasher.Whirlpool_V10K_Washer_Run@59f99ea]" name="Verify_Remote_Start_enabled" duration-ms="0" started-at="2018-10-13T19:58:05Z" depends-on-methods="com.whirlpool.V10KWasher.Whirlpool_V10K_Washer_Run.Add_Applince" finished-at="2018-10-13T19:58:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Remote_Start_enabled -->
+        <test-method status="SKIP" signature="Verify_Appliance_DashBoard()[pri:4, instance:com.whirlpool.V10KWasher.Whirlpool_V10K_Washer_Run@59f99ea]" name="Verify_Appliance_DashBoard" duration-ms="0" started-at="2018-10-13T19:58:05Z" depends-on-methods="com.whirlpool.V10KWasher.Whirlpool_V10K_Washer_Run.Verify_Remote_Start_enabled" finished-at="2018-10-13T19:58:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Appliance_DashBoard -->
+        <test-method status="SKIP" signature="Send_Cycle()[pri:5, instance:com.whirlpool.V10KWasher.Whirlpool_V10K_Washer_Run@59f99ea]" name="Send_Cycle" duration-ms="0" started-at="2018-10-13T19:58:05Z" depends-on-methods="com.whirlpool.V10KWasher.Whirlpool_V10K_Washer_Run.Verify_Appliance_DashBoard" finished-at="2018-10-13T19:58:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Send_Cycle -->
+        <test-method status="SKIP" signature="Receive_Notification()[pri:6, instance:com.whirlpool.V10KWasher.Whirlpool_V10K_Washer_Run@59f99ea]" name="Receive_Notification" duration-ms="0" started-at="2018-10-13T19:58:05Z" depends-on-methods="com.whirlpool.V10KWasher.Whirlpool_V10K_Washer_Run.Send_Cycle" finished-at="2018-10-13T19:58:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Receive_Notification -->
+        <test-method status="SKIP" signature="Delete_Favorite_Cycle()[pri:9, instance:com.whirlpool.V10KWasher.Whirlpool_V10K_Washer_Run@59f99ea]" name="Delete_Favorite_Cycle" duration-ms="0" started-at="2018-10-13T19:58:05Z" depends-on-methods="com.whirlpool.V10KWasher.Whirlpool_V10K_Washer_Run.Modify_Favorites" finished-at="2018-10-13T19:58:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Delete_Favorite_Cycle -->
+        <test-method status="SKIP" signature="Create_Favorite_Cycle()[pri:7, instance:com.whirlpool.V10KWasher.Whirlpool_V10K_Washer_Run@59f99ea]" name="Create_Favorite_Cycle" duration-ms="0" started-at="2018-10-13T19:58:05Z" depends-on-methods="com.whirlpool.V10KWasher.Whirlpool_V10K_Washer_Run.Receive_Notification" finished-at="2018-10-13T19:58:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create_Favorite_Cycle -->
+        <test-method status="SKIP" signature="Modify_Favorites()[pri:8, instance:com.whirlpool.V10KWasher.Whirlpool_V10K_Washer_Run@59f99ea]" name="Modify_Favorites" duration-ms="0" started-at="2018-10-13T19:58:05Z" depends-on-methods="com.whirlpool.V10KWasher.Whirlpool_V10K_Washer_Run.Create_Favorite_Cycle" finished-at="2018-10-13T19:58:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Modify_Favorites -->
+        <test-method status="SKIP" signature="Log_out_Account()[pri:11, instance:com.whirlpool.V10KWasher.Whirlpool_V10K_Washer_Run@59f99ea]" name="Log_out_Account" duration-ms="0" started-at="2018-10-13T19:58:05Z" depends-on-methods="com.whirlpool.V10KWasher.Whirlpool_V10K_Washer_Run.Delete_Appliance" finished-at="2018-10-13T19:58:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Log_out_Account -->
+        <test-method status="SKIP" signature="close()[pri:0, instance:com.whirlpool.V10KWasher.Whirlpool_V10K_Washer_Run@59f99ea]" name="close" is-config="true" duration-ms="0" started-at="2018-10-13T19:58:05Z" finished-at="2018-10-13T19:58:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="SKIP" signature="Delete_Appliance()[pri:10, instance:com.whirlpool.V10KWasher.Whirlpool_V10K_Washer_Run@59f99ea]" name="Delete_Appliance" duration-ms="0" started-at="2018-10-13T19:58:05Z" depends-on-methods="com.whirlpool.V10KWasher.Whirlpool_V10K_Washer_Run.Delete_Favorite_Cycle" finished-at="2018-10-13T19:58:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Delete_Appliance -->
+      </class> <!-- com.whirlpool.V10KWasher.Whirlpool_V10K_Washer_Run -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

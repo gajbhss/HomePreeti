@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test1">
+    <classes>
+      <class name="TestNG.TC_01_Demo"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Test2">
+    <classes>
+      <class name="TestNG.TC02_Login_Mutual_Fund"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Test3">
+    <classes>
+      <class name="Whirlpool_Home.Whirlpool_Login"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Test4">
+    <classes>
+      <class name="TestNG.DataDriven"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+  
+</suite> <!-- Suite -->
